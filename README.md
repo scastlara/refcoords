@@ -38,7 +38,7 @@ No-nonsense javascript to map sequence or domains or whatever coordinates onto a
 
 ```
 
-<img src="https://github.com/scastlara/refcoords/blob/master/static/screenshot.png"  width=800/>
+<img src="https://rawgit.com/scastlara/refcoords/master/static/screenshot.png"  width=800/>
 
 
 ## License
