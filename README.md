@@ -1,4 +1,4 @@
-# Refcoords.js
+# refcoords.js
 
 No-nonsense javascript to map sequence or domains or whatever coordinates onto a reference using tables and static images.
 
