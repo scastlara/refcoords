@@ -97,7 +97,7 @@ class RefCoords {
   }
 
 
-  addRule(length, binsize) {
+  addReference(length, binsize) {
       // This function creates a Reference rule using images. It takes
       // the length of the sequence and the binsize in characters.
 
