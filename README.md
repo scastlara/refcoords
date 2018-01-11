@@ -4,7 +4,7 @@ No-nonsense javascript to map sequence or domains or whatever coordinates onto a
 
 ## Usage
 
-<img src="https://rawgit.com/scastlara/refcoords/master/static/screenshot.png"  width=400/>
+<img src="https://rawgit.com/scastlara/refcoords/master/static/screenshot.png"/>
 
 
 ```html
