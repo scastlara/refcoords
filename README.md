@@ -43,8 +43,8 @@ No-nonsense javascript to map sequence or domains or whatever coordinates onto a
 ## Options
 
 * **container**: Id of the container.
-* **Height**: Height of the lines, default: 12px.
-* **Binsize**: Binsize of the reference, default: 50.
+* **height**: Height of the lines, default: 12px.
+* **binsize**: Binsize of the reference, default: 50.
 
 
 ## License
