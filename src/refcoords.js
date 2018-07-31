@@ -141,12 +141,16 @@ class RefCoords {
       // Draw the last bin, which could be less than binsize characters
       var remaining = 100 - percentage;
       if (percentage != 0) {
-          this.reference    += "<img class='line-tooltip' " +
-                          "src=" + this.linerule +
-                          " style='width:" + remaining + "%;height:12px;' "  +
-                          "title='<table class=\"domain-table\">" +
-                              "<tr><td>From: </td><td>" + num_of_bins * binsize + "</td></tr>" +
-                              "<tr><td>To: </td><td>"   + length + "</td></tr></table>'" + ">";
+          var s_rule = (num_of_bins * binsize + 1);
+          var e_rule = length;
+          if (s_rule < e_rule) {
+            this.reference += "<img class='line-tooltip' " +
+                           "src=" + this.linerule +
+                           " style='width:" + remaining + "%;height:12px;' "  +
+                           "title='" +
+                              "From: " + (num_of_bins * binsize + 1) + " " +
+                              "To: "   + length + " '>";
+          }
       }
 
       // Close row

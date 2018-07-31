@@ -6,6 +6,7 @@ No-nonsense javascript to map sequence or domains or whatever coordinates onto a
 
 <img src="https://rawgit.com/scastlara/refcoords/master/static/screenshot.png"/>
 
+See the <a href="http://jsfiddle.net/wtv25uj0/" target="_blank">demo</a> to try it out.
 
 ```html
 <html>
