@@ -2,11 +2,13 @@
 
 No-nonsense javascript to map sequence or domains or whatever coordinates onto a reference using tables and static images.
 
+
+See the <a href="http://jsfiddle.net/wtv25uj0/" target="_blank">demo</a> to try it out.
+
+
 ## Usage
 
 <img src="https://rawgit.com/scastlara/refcoords/master/static/screenshot.png"/>
-
-See the <a href="http://jsfiddle.net/wtv25uj0/" target="_blank">demo</a> to try it out.
 
 ```html
 <html>
