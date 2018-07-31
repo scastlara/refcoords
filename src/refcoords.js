@@ -30,7 +30,11 @@ class RefCoords {
     this.linebreak  = "\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QIBDTcpCd39iQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAeSURBVAjXY/j//z8TAwMD848fP5gYGBjQMQNUHoYBJBMI+DsxSHoAAAAASUVORK5CYII=\"";
     this.seqline    = "\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QIBDSc1Vx6zlwAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAdSURBVAjXY/j//z8TAwMD0613P5gYGBhwYQaoOgAGBQjPJ0hVoAAAAABJRU5ErkJggg==\"";
     this.seqend     = "\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QIBDS0BjEWvqAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMSURBVAjXY2AgDQAAADAAAceqhY4AAAAASUVORK5CYII=\""
+    this.initCss();
+    
+  }
 
+  initCss() {
     var css = document.createElement("style");
     css.type = "text/css";
 
@@ -45,7 +49,6 @@ class RefCoords {
         width: 100%;
         color: #777777;
     }
-
     .domain-table td {
         padding-left;
     }
@@ -56,28 +59,22 @@ class RefCoords {
         font-size: 12px;
         font-style: italic;
     }
-
     .line-tooltip:hover {
         cursor: pointer;
         opacity: 0.5;
     }
-
     .line-table-td-scale {
         margin-right: 0 !important;
     }
-
     .line-table-td-line {
         height: 12px;
         width: 80%;
     }
-
     .line-table-td-name {
         height: 12px;
         width: 20%;
         color: #777777;
     }
-
-
     .line-table-td-text {
         text-align: center;
         margin-right: 0 !important;
@@ -92,10 +89,8 @@ class RefCoords {
     border-bottom: 1px dotted black;
   }
 `;
-
     document.body.appendChild(css);
   }
-
 
   addReference(length, binsize) {
       // This function creates a Reference rule using images. It takes
@@ -220,9 +215,8 @@ class RefCoords {
 }
 
 
-
 function toNewScale(start, end, length) {
-    // This function takes twoo coordinates (start and end), and the
+    // This function takes two coordinates (start and end), and the
     // length of a given sequence and returns the corresponding width
     // percentage of the sequence start->end on a sequence of length
     // "length". It also returns the new "start" coordinate.
