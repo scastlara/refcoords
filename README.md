@@ -8,7 +8,7 @@ See the <a href="http://jsfiddle.net/wtv25uj0/" target="_blank">demo</a> to try 
 
 ## Usage
 
-<img src="https://rawgit.com/scastlara/refcoords/master/static/screenshot.png"/>
+<img src="static/screenshot.png"/>
 
 ```html
 <html>
