@@ -3,7 +3,7 @@
 No-nonsense javascript to map sequence or domains or whatever coordinates onto a reference using tables and static images.
 
 
-See the <a href="http://jsfiddle.net/wtv25uj0/" target="_blank">demo</a> to try it out.
+See the <a href="http://jsfiddle.net/7ogx13dn/" target="_blank">demo</a> to try it out.
 
 
 ## Usage
